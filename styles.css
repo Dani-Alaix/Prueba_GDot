@@ -1,0 +1,267 @@
+@font-face {
+    font-family: "TelefonicaWeb-ExtraLight";
+    src: url("fonts/TelefonicaWeb-ExtraLight.woff");
+}
+@font-face {
+    font-family: "TelefonicaWeb-Light";
+    src: url("fonts/TelefonicaWeb-Light.woff");
+}
+@font-face {
+    font-family: "TelefonicaWeb";
+    src: url("fonts/TelefonicaWeb-Regular.woff");
+}
+@font-face {
+    font-family: "dotmovistar";
+    src: url("fonts/dotmovistar-font.ttf");
+}
+
+/* toolbar */
+.menu {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    padding: 1rem;
+    z-index: 2;
+    margin-top: -8px;
+    font-family: "TelefonicaWeb";
+}
+.menu p {
+    margin: 0 1rem;
+    color: #50535a;
+}
+.menu .m-btn {
+    color: #fff;
+    background-color: #1caadf;
+    border: none;
+    padding: 0.5rem;
+    font-family: "TelefonicaWeb";
+    position: absolute;
+    right: 5rem;
+}
+.menu .green{
+    color: #5bc500;
+    font-weight: 900;
+    position: absolute;
+    left: 1rem;
+    top: 0.2rem;
+    font-size: 2rem;
+}
+.menu .btns{
+    margin: 0 10rem;
+}
+.banner,
+.textAdd,
+.promo,
+.end {
+    text-align: center;
+}
+/* banner */
+.banner .img-main {
+    width: 100%;
+    margin-top: 50px;
+}
+.banner .star {
+    position: absolute;
+    top: 17rem;
+    right: 10rem;
+    cursor: pointer;
+    font-family: "TelefonicaWeb";
+    font-weight: 600;
+}
+.banner .star img {
+    width: 200px;
+}
+.banner .star p {
+    font-size: 2.5rem;
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    top: 19px;
+    left: 10px;
+    text-align: center;
+    line-height: 2.5rem;
+    width: 188px;
+}
+.banner .content {
+    color: #fff;
+    position: absolute;
+    top: 7rem;
+    left: 2rem;
+    right: 2rem;
+    font-family: "TelefonicaWeb-ExtraLight";
+}
+.banner .content h2 {
+    font-size: 3.5rem;
+    max-width: 571px;
+    letter-spacing: 2px;
+    line-height: 3.5rem;
+    margin: 1rem auto;
+}
+.banner .content span {
+    font-size: 0.9rem;
+}
+.send {
+    margin-top: 1rem;
+}
+.send input {
+    padding: 0.9rem 1.5rem;
+    margin-right: -0.3rem;
+}
+.send button {
+    color: #fff;
+    background-color: #5bc500;
+    padding: 0.4rem 2rem 0.8rem 2rem;
+    border: none;
+    font-family: "TelefonicaWeb";
+    font-size: 1.4rem;
+}
+.checkbox {
+    margin-top: 1rem;
+}
+.end span {
+    font-family: "TelefonicaWeb";
+    font-size: 0.9rem;
+}
+span a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.textAdd {
+    margin: -2rem auto 2rem auto;
+    font-size: 1.8rem;
+    font-family: "TelefonicaWeb";
+    color: #50535a;
+    max-width: 900px;
+}
+/* plan detail */
+.promo {
+    display: table;
+    margin: 0 auto;
+}
+.promo .box {
+    margin: 0.5rem;
+    padding: 0 1rem 0.5rem 1rem;
+    font-family: "TelefonicaWeb-ExtraLight";
+    height: 265px;
+}
+.promo .box h3 {
+    font-size: 1.3rem;
+    letter-spacing: 0.8px;
+}
+.promo .one h2 {
+    font-size: 2.8rem;
+    width: 200px;
+}
+.promo .two h2 {
+    font-size: 3.8rem !important;
+    font-family: "TelefonicaWeb";
+    margin: 0;
+}
+.promo .two .gb {
+    width: 215px;
+    margin: 0rem 2rem;
+}
+.promo .one {
+    color: #fff;
+    background-color: #86888c;
+}
+.promo .two {
+    color: #fff;
+    background-color: #1caadf;
+}
+.mini-box {
+    border: #fff solid 1px;
+    border-radius: 5px;
+    margin: 0.6rem 0.25rem;
+    font-family: "TelefonicaWeb";
+    width: 210px;
+    height: 82px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+.mini-box p {
+    margin: auto;
+}
+.mini-box span {
+    font-family: "TelefonicaWeb-ExtraLight";
+    font-size: 0.8rem;
+}
+.ups {
+    text-align: left;
+}
+
+.float {
+    float: left;
+}
+
+/* For mobile */
+@media only screen and (max-width: 576px) {
+    .plan-detail {
+        clear: both !important;
+    }
+    .banner .star {
+        top: 10rem !important;
+        right: 1rem !important;
+    }
+    .banner .star img {
+        width: 110px !important;
+    }
+    .textAdd {
+        font-size: 1rem !important;
+    }
+    .banner .content {
+        top: 1rem;
+    }
+    .promo .float{
+        clear: both !important;
+    }
+}
+/* For tablets */
+@media only screen and (max-width: 768px) {
+    .plan-detail {
+        clear: both !important;
+    }
+    .banner .star {
+        top: 12rem !important;
+        right: 2rem !important;
+    }
+    .banner .star img {
+        width: 140px !important;
+    }
+    .banner .star p {
+        font-size: 2.3rem;
+        top: 0px;
+        left: 0;
+        width: 160px;
+    }
+    .promo .box {
+        padding: 0 0.5rem !important;
+        height: auto !important;
+    }
+    .textAdd {
+        font-size: 1.2rem !important;
+    }
+}
+/* For desktop */
+@media only screen and (max-width: 1200px) {
+    .banner .star {
+        top: 15rem !important;
+        right: 5rem !important;
+    }
+    .banner .star img {
+        width: 160px !important;
+    }
+    .banner .star p {
+        font-size: 2.3rem !important;
+        top: 0px;
+        left: 0;
+        width: 160px;
+    }
+    .banner .content {
+        top: 5rem;
+    }
+    .textAdd {
+        font-size: 1.5rem !important;
+    }
+}
